@@ -3,6 +3,10 @@
 
 @media only screen and (max-width: 768px) {
   /* Awal CSS BLOG */
+  #pencarian .form-inline input {
+    margin-right: 10px;
+  }
+
   #kategoriArtikel .kategori {
     justify-content: center;
     flex-wrap: wrap;
