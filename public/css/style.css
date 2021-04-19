@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  /* background-color: #daf3fc; */
+  background-color: #f2f2f2;
+  color: #545454;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #1d79b2;
+  border-radius: 21px;
+  width: 125px;
+}
+
+.tombol {
+  width: 83px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: #72c9ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.title,
+.sub-title,
+.date {
+  color: #545454;
+}
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 44px;
+}
+.sub-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.date {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* CSS BLOG */
+#pencarian {
+  padding: 100px 0;
+}
+#pencarian h1,
+#pencarian p {
+  font-weight: 800;
+  color: #545454;
+}
+#pencarian p {
+  font-weight: 500;
+}
+#pencarian input {
+  width: 40%;
+  border-radius: 19px;
+}
+
+#blog .blogBawah {
+  padding: 30px;
+}
+#blog .blogAtas .card,
+#blog .blogBawah .card {
+  border: none;
+  background: transparent;
+}
+#blog .blogAtas .card .gambar,
+#blog .blogBawah .card .gambar {
+  border-radius: 21px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+#blog .blogAtas .atasKiri .isiSub {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 10px 0;
+}
+#blog .blogAtas .atasKanan .row,
+#blog .blogAtas .atasKanan .col,
+#blog .blogBawah .row {
+  margin: 5px;
+}
+#blog .blogAtas .atasKanan .title,
+#blog .blogBawah .title {
+  font-size: 1.1em;
+  line-height: 22px;
+}
+#blog .blogAtas .atasKanan .date,
+#blog .blogBawah .date {
+  font-size: 0.7em;
+}
+#blog .blogBawah .pagination {
+  display: flex;
+  justify-content: center;
+}
+#blog .blogBawah .pagination .page-link {
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin: 5px;
+}
+
+#kategoriArtikel .kategori {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+}
+#kategoriArtikel h1,
+#labelBlog h1 {
+  font-size: 2.3em;
+  font-weight: 800;
+}
+#kategoriArtikel .pilihanKategori {
+  width: 171px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  font-weight: 800;
+  padding: 20px;
+}
+#kategoriArtikel .pilihanKategori p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+#kategoriArtikel .pilihanKategori .gambarKategori {
+  border-radius: 50%;
+  background-color: #3af2f3;
+}
+
+#labelBlog .linkLabel a {
+  display: inline-block;
+  width: 139px;
+  border-radius: 18px;
+  border: 1px solid #0094ef;
+  color: #545454;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  margin: 8px;
+}
+#labelBlog .linkLabel a:hover {
+  background-color: #0094ef;
+  color: white;
+}
+
+#footer {
+  background-color: #1d79b2;
+  color: white;
+}
+#footer .footBrand {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+#footer ul li {
+  line-height: 35px;
+}
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+#footer ul li a:hover {
+  color: black;
+}
+#footer .btn-primary {
+  width: auto;
+}
+#footer p {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+/* Akhir CSS BLOG */
