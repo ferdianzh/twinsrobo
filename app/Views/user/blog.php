@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/responsive.css" />
 
-  <title>Blog Page</title>
+  <title>Twins Robo Blog Page</title>
 </head>
 
 <body>
@@ -34,11 +34,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto d-flex align-items-center">
-          <a class="nav-link active" href="#">Fitur <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Fitur <span class="sr-only">(current)</span></a>
           <a class="nav-link" href="#">Tentang Kami</a>
           <a class="nav-link" href="#">Karir</a>
           <a class="nav-link" href="#">Pembelajaran</a>
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link  active" href="#">Blog</a>
           <a class="nav-link" href="#">Bantuan</a>
           <a class="btn tombol" href="#">Login</a>
         </div>
