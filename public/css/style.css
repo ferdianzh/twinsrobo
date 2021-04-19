@@ -2,11 +2,35 @@
   box-sizing: border-box;
 }
 
+/* Awal CSS NAVBAR SCROLL HIDDEN */
+#menu-utama {
+  transition: all 0.5s ease;
+
+  -webkit-transition: all 0.5s ease;
+
+  -o-transition: all 0.5s ease;
+
+  -ms-transition: all 0.5s ease;
+
+  -moz-transition: all 0.5s ease;
+}
+.hidden {
+  transform: translate3d(0, -100%, 0);
+
+  -webkit-transform: translate3d(0, -100%, 0);
+
+  -o-transform: translate3d(0, -100%, 0);
+
+  -ms-transform: translate3d(0, -100%, 0);
+
+  -moz-transform: translate3d(0, -100%, 0);
+}
+/* Akhir CSS NAVBAR SCROLL HIDDEN */
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  /* background-color: #daf3fc; */
-  background-color: #f2f2f2;
+  background: rgba(188, 229, 255, 0.17);
   color: #545454;
   margin: 0;
   padding: 0;
@@ -167,6 +191,7 @@ body {
 }
 
 #footer {
+  margin-top: -5px;
   background-color: #1d79b2;
   color: white;
 }
