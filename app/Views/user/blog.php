@@ -297,92 +297,120 @@
     <div class="container">
       <h1>Artikel Berdasarkan Kategori</h1>
       <div class="kategori">
-        <div class="pilihanKategori">
-          <div class="gambarKategori">
-            <img src="/img/kategori1.png" alt="">
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Program Robot</p>
           </div>
-          <p>Program Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori2.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori2.png" alt="">
+            </div>
+            <p>Mini Games</p>
           </div>
-          <p>Mini Games</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-danger">
-            <img src="/img/kategori3.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-danger">
+              <img src="/img/kategori3.png" alt="">
+            </div>
+            <p>Info Lomba Robot</p>
           </div>
-          <p>Info Lomba Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori4.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori4.png" alt="">
+            </div>
+            <p>Learn Robot</p>
           </div>
-          <p>Learn Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Cek My Robot</p>
           </div>
-          <p>Cek My Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Program Robot</p>
           </div>
-          <p>Program Robot</p>
-        </div>
+        </a>
 
-        <div class="pilihanKategori">
-          <div class="gambarKategori">
-            <img src="/img/kategori1.png" alt="">
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Program Robot</p>
           </div>
-          <p>Program Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori2.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori2.png" alt="">
+            </div>
+            <p>Mini Games</p>
           </div>
-          <p>Mini Games</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-danger">
-            <img src="/img/kategori3.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-danger">
+              <img src="/img/kategori3.png" alt="">
+            </div>
+            <p>Info Lomba Robot</p>
           </div>
-          <p>Info Lomba Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori4.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori4.png" alt="">
+            </div>
+            <p>Learn Robot</p>
           </div>
-          <p>Learn Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Cek My Robot</p>
           </div>
-          <p>Cek My Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Program Robot</p>
           </div>
-          <p>Program Robot</p>
-        </div>
+        </a>
 
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Cek My Robot</p>
           </div>
-          <p>Cek My Robot</p>
-        </div>
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
+        </a>
+        <a href="">
+          <div class="pilihanKategori">
+            <div class="gambarKategori bg-primary">
+              <img src="/img/kategori1.png" alt="">
+            </div>
+            <p>Program Robot</p>
           </div>
-          <p>Program Robot</p>
-        </div>
+        </a>
       </div>
       <!-- Akhir Kategori -->
     </div>

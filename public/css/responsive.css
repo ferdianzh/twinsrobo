@@ -2,6 +2,16 @@
 }
 
 @media only screen and (max-width: 768px) {
+  /* Awal CSS BLOG */
+  #kategoriArtikel .kategori {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #kategoriArtikel .pilihanKategori {
+    width: 167px;
+  }
+
+  /* Akhir CSS BLOG */
 }
 
 @media only screen and (max-width: 540px) {
@@ -12,9 +22,13 @@
   #pencarian .form-inline input {
     margin-right: 10px;
   }
+
   #kategoriArtikel .kategori {
     justify-content: center;
     flex-wrap: wrap;
+  }
+  #kategoriArtikel .pilihanKategori {
+    width: 235px;
   }
 
   #footer .ft-menu {

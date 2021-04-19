@@ -148,6 +148,13 @@ body {
   gap: 10px;
   align-content: center;
 }
+#kategoriArtikel .kategori a {
+  text-decoration: none;
+  color: #545454;
+}
+#kategoriArtikel .kategori a:hover .pilihanKategori {
+  background-color: rgba(188, 229, 255, 0.9);
+}
 #kategoriArtikel h1,
 #labelBlog h1 {
   font-size: 2.3em;
