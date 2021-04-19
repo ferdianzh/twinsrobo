@@ -431,7 +431,7 @@
 
       <!-- Awal Row -->
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 ft-menu">
           <h6>Perusahaan</h6>
 
           <ul class="list-unstyled">
@@ -441,7 +441,7 @@
           </ul>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-2 ft-menu">
           <h6>Gabung</h6>
 
           <ul class="list-unstyled">
@@ -451,7 +451,7 @@
           </ul>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-2 ft-menu">
           <h6>Karir</h6>
 
           <ul class="list-unstyled">
@@ -460,7 +460,7 @@
           </ul>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-3 ft-menu">
           <h6>Hubungi Kami</h6>
 
           <ul class="list-unstyled">
@@ -469,7 +469,7 @@
           </ul>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 ft-menu">
           <h6>Cari tau berita terbaru</h6>
 
           <ul class="list-unstyled d-flex" style="gap: 20px; font-size: 30px;">
