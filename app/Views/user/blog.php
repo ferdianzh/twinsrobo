@@ -85,9 +85,9 @@
           <div class="atasKiri col-lg-6">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 300px; height: 250px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%;" />
               </div>
-              <div class="card-body">
+              <div class=" card-body">
                 <div class="isiSub">
                   <img src="/img/Logo Apps Twins Robo.png" alt="" />
                   <h4 class="sub-title">Twins Robo App</h4>
@@ -104,7 +104,7 @@
           <!-- Awal atasKanan -->
           <div class="atasKanan col-lg-6">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <div class="card">
                   <div class="gambar">
                     <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 171px; height: 128px" />
@@ -115,7 +115,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <div class="card">
                   <div class="gambar">
                     <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 171px; height: 128px" />
@@ -128,7 +128,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <div class="card">
                   <div class="gambar">
                     <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 171px; height: 128px" />
@@ -139,7 +139,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <div class="card">
                   <div class="gambar">
                     <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 171px; height: 128px" />
@@ -162,10 +162,10 @@
     <div class="blogBawah">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
               </div>
               <div class="card-body">
                 <h2 class="title">Lorem ipsum dolor sit amet.</h2>
@@ -173,10 +173,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
               </div>
               <div class="card-body">
                 <h2 class="title">Lorem ipsum dolor sit amet.</h2>
@@ -184,45 +184,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
-              </div>
-              <div class="card-body">
-                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
-                <p class="date">Twins Robo / 3 Maret 2021</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
-              </div>
-              <div class="card-body">
-                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
-                <p class="date">Twins Robo / 3 Maret 2021</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
-              </div>
-              <div class="card-body">
-                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
-                <p class="date">Twins Robo / 3 Maret 2021</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
               </div>
               <div class="card-body">
                 <h2 class="title">Lorem ipsum dolor sit amet.</h2>
@@ -232,10 +197,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
               </div>
               <div class="card-body">
                 <h2 class="title">Lorem ipsum dolor sit amet.</h2>
@@ -243,10 +208,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
               </div>
               <div class="card-body">
                 <h2 class="title">Lorem ipsum dolor sit amet.</h2>
@@ -254,10 +219,45 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card">
               <div class="gambar">
-                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 265px; height: 199px" />
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
+              </div>
+              <div class="card-body">
+                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+                <p class="date">Twins Robo / 3 Maret 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="gambar">
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
+              </div>
+              <div class="card-body">
+                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+                <p class="date">Twins Robo / 3 Maret 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="gambar">
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
+              </div>
+              <div class="card-body">
+                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+                <p class="date">Twins Robo / 3 Maret 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="gambar">
+                <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%; height: auto" />
               </div>
               <div class="card-body">
                 <h2 class="title">Lorem ipsum dolor sit amet.</h2>
@@ -283,9 +283,9 @@
             </a>
           </li>
         </ul>
-        </nav>
         <!-- Akhir Pagination -->
       </div>
+      <!-- Akhir Container -->
     </div>
     <!--Akhir Blog Bagian Bawah -->
   </div>
@@ -296,123 +296,98 @@
     <!-- Awal Container -->
     <div class="container">
       <h1>Artikel Berdasarkan Kategori</h1>
-      <div class="kategori">
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori">
-              <img src="/img/kategori1.png" alt="">
-            </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" alt="">
             <p>Program Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori2.png" alt="">
-            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori2.png" class="bg-primary" alt="">
             <p>Mini Games</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-danger">
-              <img src="/img/kategori3.png" alt="">
-            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori3.png" class="bg-danger" alt="">
             <p>Info Lomba Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori4.png" alt="">
-            </div>
-            <p>Learn Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori1.png" alt="">
-            </div>
-            <p>Cek My Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori1.png" alt="">
-            </div>
-            <p>Program Robot</p>
-          </div>
-        </a>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
 
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori">
-              <img src="/img/kategori1.png" alt="">
-            </div>
+            <img src="/img/kategori4.png" class="bg-primary" alt="">
+            <p>Learn Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" class="bg-primary" alt="">
             <p>Program Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori2.png" alt="">
-            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" class="bg-primary" alt="">
+            <p>Program Robot</p>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" alt="">
+            <p>Program Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori2.png" class="bg-primary" alt="">
             <p>Mini Games</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-danger">
-              <img src="/img/kategori3.png" alt="">
-            </div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori3.png" class="bg-danger" alt="">
             <p>Info Lomba Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori4.png" alt="">
-            </div>
-            <p>Learn Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori1.png" alt="">
-            </div>
-            <p>Cek My Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori1.png" alt="">
-            </div>
-            <p>Program Robot</p>
-          </div>
-        </a>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
 
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori1.png" alt="">
-            </div>
-            <p>Cek My Robot</p>
-          </div>
-        </a>
-        <a href="">
-          <div class="pilihanKategori">
-            <div class="gambarKategori bg-primary">
-              <img src="/img/kategori1.png" alt="">
-            </div>
+            <img src="/img/kategori4.png" class="bg-primary" alt="">
+            <p>Learn Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" class="bg-primary" alt="">
             <p>Program Robot</p>
-          </div>
-        </a>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" class="bg-primary" alt="">
+            <p>Program Robot</p>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" class="bg-primary" alt="">
+            <p>Program Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 ">
+          <a href="" class="h-100">
+            <img src="/img/kategori1.png" class="bg-primary" alt="">
+            <p>Program Robot</p>
+          </a>
+        </div>
+
       </div>
-      <!-- Akhir Kategori -->
+
     </div>
     <!-- Akhir Container -->
   </div>
@@ -516,13 +491,13 @@
       </div>
       <!-- Akhir Row -->
 
-      <div class="row">
+      <div class="row row-ketentuan">
         <div class="col-lg-12">
           <hr color="white">
         </div>
 
         <div class="col-lg-9 mt-3">
-          <ul class="list-unstyled d-flex" style="gap: 20px;">
+          <ul class="list-unstyled d-flex foot-ul">
             <li><a href="">Kebijakan Privasi</a></li>
             <li><a href="">Syarat dan Ketentuan</a></li>
             <li><a href="">Atribusi Data</a></li>

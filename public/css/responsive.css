@@ -7,12 +7,8 @@
     margin-right: 10px;
   }
 
-  #kategoriArtikel .kategori {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #kategoriArtikel .pilihanKategori {
-    width: 167px;
+  #labelBlog .linkLabel {
+    text-align: center;
   }
 
   /* Akhir CSS BLOG */
@@ -25,14 +21,6 @@
   }
   #pencarian .form-inline input {
     margin-right: 10px;
-  }
-
-  #kategoriArtikel .kategori {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #kategoriArtikel .pilihanKategori {
-    width: 235px;
   }
 
   #footer .ft-menu {
@@ -50,4 +38,48 @@
 }
 
 @media only screen and (max-width: 375px) {
+  #pencarian h1 {
+    font-size: 2em;
+  }
+  #pencarian p {
+    font-size: 0.8em;
+  }
+  #pencarian .form-inline input,
+  #pencarian .form-inline button {
+    height: 40px;
+    font-size: 0.9em;
+  }
+  #pencarian .form-inline input {
+    width: 60%;
+  }
+  #pencarian .form-inline button {
+    width: 35%;
+  }
+
+  #blog .atasKiri .card .card-body .isiSub img {
+    height: 50px;
+    width: 50px;
+  }
+  #blog .atasKiri .card .card-body .isiSub h4 {
+    font-size: 1.1em;
+  }
+  #blog .atasKiri .card .card-body .title {
+    font-size: 1.3em;
+  }
+
+  #kategoriArtikel h1 {
+    font-size: 1.7em;
+    padding: 20px;
+  }
+
+  #labelBlog h1 {
+    padding: 15px;
+  }
+
+  #footer .footBrand h1 {
+    font-size: 1.4em;
+  }
+  #footer .row-ketentuan .foot-ul {
+    flex-direction: column;
+  }
 }
