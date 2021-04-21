@@ -1,0 +1,615 @@
+.table > thead > tr > th:first-child,
+.table > tbody > tr > th {
+  text-align: center;
+}
+
+/* Profile/ */
+
+.landpage span {
+  margin-left: 2px;
+}
+
+.landpage {
+  margin-left: -2px;
+}
+
+.nav-item {
+  margin-top: -20px;
+}
+
+.new-admin .add-admin {
+  width: 20%;
+  height: auto;
+  padding: 10px 20px;
+  background-color: #0074b7;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.border-profile {
+  width: 250px;
+  height: 250px;
+  background-color: #eeede7;
+  border-radius: 50%;
+  margin: 50px auto 20px auto;
+  padding: 1px 0px;
+}
+
+.profile .email {
+  font-size: 16px;
+  margin-top: -10px;
+}
+.profile .nama {
+  font-size: 22px;
+  margin-top: 10px;
+}
+/* .profile .jumlah-blog {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.profile .result-blog {
+  font-size: 36px;
+  margin-top: -10px;
+} */
+
+.img-profile {
+  width: 210px;
+  height: 210px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 19px auto;
+  box-shadow: 0 0 8px rgb(97, 97, 97);
+  z-index: 4;
+  position: relative;
+  overflow: hidden;
+}
+
+#ft-profile {
+  box-sizing: border-box;
+  outline: none;
+  margin: 12% 23%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#ft-profile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+#ft-profile::before {
+  content: "\f030";
+  font-family: fontAwesome;
+  font-size: 23px;
+  color: white;
+}
+
+.input-group-prepend span,
+.input-group-prepend label {
+  width: 107px;
+}
+
+.tambah-admin .input-group-prepend span,
+.tambah-admin .input-group-prepend label {
+  width: 137px;
+}
+
+.data-captcha .input-group-prepend span,
+.data-captcha .input-group-prepend label {
+  width: 147px;
+}
+
+.inputState {
+  font-weight: bold;
+}
+
+.login {
+  margin-top: 8%;
+}
+
+.checkbox {
+  margin-left: -5%;
+}
+
+.input-checkbox {
+  margin-top: 7px;
+}
+
+.cabang .input-group-prepend span,
+.cabang .input-group-prepend label {
+  width: 127px;
+}
+
+.blog-form .input-group-prepend span,
+.blog-form .input-group-prepend label {
+  width: 137px;
+}
+
+.ck-editor_editable_inline {
+  min-height: 200px;
+}
+
+.add {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #0074b7;
+  margin: -50px auto 0 auto;
+  z-index: 5;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid white;
+}
+
+.add-icon {
+  margin-top: 9px;
+  width: 60%;
+  color: white;
+  position: relative;
+  z-index: 6;
+}
+
+.profile p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(122, 122, 122);
+}
+
+.update-admin .col-sm-5 {
+  padding: 80px 0px 0px 0px;
+}
+
+.data-admin .update-admin .col-sm-6 {
+  padding: 50px 0px 0px 0px;
+}
+
+.update-admin .col-sm-12 {
+  padding: 0px;
+}
+
+.update-admin .col-sm-12 input {
+  width: 30%;
+  height: 35px;
+  background-color: #0074b7;
+  color: white;
+  font-weight: 500;
+  float: right;
+  margin-right: -10px;
+}
+
+.update-admin .col-sm-10 input {
+  width: 30%;
+  height: 35px;
+  background-color: #0074b7;
+  color: white;
+  font-weight: 500;
+  margin-left: -10%;
+  float: right;
+  margin-right: 3%;
+}
+
+.update-admin input {
+  width: 90%;
+}
+
+.update-admin #passwordchek {
+  margin-left: -235px;
+  margin-top: 6px;
+}
+.update-admin .button {
+  width: 90%;
+  height: 35px;
+  margin: 0px auto 23px auto;
+  border-radius: 3px;
+  border: grey thick;
+  box-shadow: 0 0 3px rgb(100, 100, 100);
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.data-admin .update-admin input,
+.update-admin select {
+  width: 94%;
+  height: 35px;
+  margin: 0px auto 23px auto;
+  border-radius: 3px;
+  border: grey thick;
+  box-shadow: 0 0 3px rgb(100, 100, 100);
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.login-background {
+  background-image: url(/assets/img/page-form.png);
+  background-size: cover;
+}
+
+.show-thumbnail {
+  width: 120px;
+  height: auto;
+}
+
+.table tbody > tr > th,
+.table tbody > tr > td {
+  vertical-align: middle;
+}
+
+#inputGroupSelect02 {
+  margin-top: 1px;
+}
+
+.invalid-foto {
+  margin-top: 87px;
+  margin-left: -690px;
+}
+
+.blog-invalid-foto {
+  margin-top: 88px;
+  margin-left: -690px;
+}
+
+.data-admin .update-admin .custom-file-label {
+  width: 94%;
+  height: 35px;
+  border-radius: 3px;
+  border: grey thick;
+  box-shadow: 0 0 3px rgb(100, 100, 100);
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.add-blog .submit {
+  width: 15%;
+  padding: 5.5px 20px;
+  background-color: #0074b7;
+  border-radius: 10px;
+  border: thick;
+  box-shadow: 0 0 2px grey;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  z-index: 0;
+}
+.add-blog .back {
+  width: 15%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: thick;
+  box-shadow: 0 0 2px grey;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  float: right;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  z-index: 0;
+  margin-right: 20px;
+}
+/* .btn-submit {
+  font-family: "Lato";
+  text-transform: uppercase;
+  font-weight: 300;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 3px solid #333;
+  padding: 6px 12px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.btn-submit:hover,
+button:hover {
+  outline: 0;
+  color: #fff;
+}
+.btn-submit:active,
+button:active {
+  outline: 0;
+  color: #fff;
+} */
+
+.form-control {
+  border-radius: 20px;
+}
+.btn-save {
+  padding: 0.7em 1.5em;
+  border: none;
+  color: #fff;
+  background: linear-gradient(to bottom, #105a8b 50%, #257fbb 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+.btn-save:hover {
+  background-position: right top;
+  color: #fff;
+}
+.btn-back {
+  padding: 0.7em 1.5em;
+  border: none;
+  color: #fff;
+  background: linear-gradient(to bottom, #d40202 50%, #f71717 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+.btn-back:hover {
+  background-position: right top;
+}
+
+/* .tabel-bergabung tbody .btn-tabel a{
+  font-size: .85rem;
+  display: inline-block;
+  background-color: #33BEF0;
+  padding: 13px 20px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+} */
+
+/* .tabel-bergabung tbody .btn-tabel a{
+  text-decoration: none;
+} */
+
+/* .add-blog .submit::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #2926a9;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.add-blog .submit:hover::before {
+  height: 100%;
+} */
+
+.data-admin .update-admin .col-sm-12 input {
+  width: 30%;
+  height: 35px;
+  background-color: #0074b7;
+  color: white;
+  font-weight: 500;
+  margin-right: 3%;
+}
+
+.update-admin input:active {
+  border: 1px solid #0000ff;
+}
+
+.update-admin input::-webkit-input-placeholder {
+  color: #a5aba0;
+}
+.data-admin {
+  padding: 0 7%;
+}
+
+.sidebar i {
+  width: 20px;
+}
+
+.sidebar-heading {
+  margin: 15px 0 10px 0;
+}
+
+.sidebar-brand-icon img {
+  width: 85%;
+  height: auto;
+  color: white;
+}
+
+/* Blog */
+
+.blog-header {
+  height: 60px;
+  padding: 20px 20px;
+}
+
+.blog-header a {
+  width: 20%;
+  height: auto;
+  padding: 7px 15px;
+  background-color: #0074b7;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* .data-blog a {
+  padding: 7px 10px;
+  margin-right: 0px;
+  border-radius: 5px;
+}
+
+.data-blog a {
+  padding: 7px 10px;
+  margin-right: 0px;
+  border-radius: 5px;
+} */
+
+.data-blog a:first-child::before {
+  content: "\f044";
+  font-family: fontAwesome;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0074b7;
+}
+
+.data-blog button::before {
+  content: "\f2ed";
+  font-family: fontAwesome;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img-crop {
+  display: block;
+  max-width: 100%;
+}
+.preview {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.tambah-data:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #105a8b;
+  transition: 0.5s;
+}
+
+.card-data span,
+.card-data label,
+.card-data input {
+  font-size: 16px;
+}
+
+.active {
+  background-color: #0f25d5;
+}
+
+.nav-profile {
+  transition: 0.5s;
+  padding: 0px;
+}
+
+.nav-profile:hover {
+  background-color: #0f25d5;
+}
+
+.shadow {
+  transition: 0.5s;
+}
+
+.outer {
+  width: 20%;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  z-index: 5;
+}
+
+#sidebar {
+  height: 500px;
+  overflow-y: scroll;
+  width: 105%;
+}
+
+.main {
+  margin-left: 19.6%;
+  z-index: 1;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
