@@ -39,7 +39,7 @@
         <div class="atasKiri col-lg-6">
           <div class="card">
             <div class="gambar">
-              <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 300px; height: 250px" />
+              <img src="/img/dashboard.png" class="card-img-top" alt="" style="width: 100%;" />
             </div>
             <div class="card-body">
               <div class="isiSub">
@@ -251,6 +251,7 @@
   <div class="container">
     <h1>Artikel Berdasarkan Kategori</h1>
     <div class="kategori">
+<<<<<<< HEAD
       <a href="">
         <div class="pilihanKategori">
           <div class="gambarKategori">
@@ -365,6 +366,97 @@
           <p>Program Robot</p>
         </div>
       </a>
+=======
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" alt="" />
+            <p>Program Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori2.png" class="bg-primary" alt="" />
+            <p>Mini Games</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori3.png" class="bg-danger" alt="" />
+            <p>Info Lomba Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori4.png" class="bg-primary" alt="" />
+            <p>Learn Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" class="bg-primary" alt="" />
+            <p>Cek My Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" class="bg-primary" alt="" />
+            <p>Program Robot</p>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" alt="" />
+            <p>Program Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori2.png" class="bg-primary" alt="" />
+            <p>Mini Games</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori3.png" class="bg-danger" alt="" />
+            <p>Info Lomba Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori4.png" class="bg-primary" alt="" />
+            <p>Learn Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" class="bg-primary" alt="" />
+            <p>Cek My Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" class="bg-primary" alt="" />
+            <p>Program Robot</p>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" class="bg-primary" alt="" />
+            <p>Cek My Robot</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="" class="h-100">
+            <img src="../img/kategori1.png" class="bg-primary" alt="" />
+            <p>Program Robot</p>
+          </a>
+        </div>
+      </div>
+      <!-- Akhir Row -->
+>>>>>>> d776b2dd4df6049f7c8b9496371d1881b62cefea
     </div>
     <!-- Akhir Kategori -->
   </div>
@@ -372,7 +464,6 @@
 </div>
 <!-- Akhir Kategori Blog -->
 
-<!-- Awal Label Blog -->
 <div id="labelBlog">
   <div class="container">
     <h1>Label</h1>
