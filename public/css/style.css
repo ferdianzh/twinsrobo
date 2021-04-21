@@ -758,18 +758,32 @@ body {
   margin: 5px;
 }
 
-#kategoriArtikel .kategori {
+#kategoriArtikel {
   margin: 50px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-content: center;
 }
-#kategoriArtikel .kategori a {
-  text-decoration: none;
+#kategoriArtikel .row {
+  margin: 10px 10px;
+}
+#kategoriArtikel .col-lg-2 {
+  padding: 3px;
+}
+#kategoriArtikel a {
+  background-color: #fff;
   color: #545454;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
 }
-#kategoriArtikel .kategori a:hover .pilihanKategori {
+#kategoriArtikel a img {
+  background-color: cyan;
+  border-radius: 50%;
+}
+#kategoriArtikel a:hover {
   background-color: rgba(188, 229, 255, 0.9);
 }
 #kategoriArtikel h1,
@@ -777,27 +791,6 @@ body {
   font-size: 2.3em;
   font-weight: 800;
 }
-#kategoriArtikel .pilihanKategori {
-  width: 171px;
-  border-radius: 8px;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8em;
-  font-weight: 800;
-  padding: 20px;
-}
-#kategoriArtikel .pilihanKategori p {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-#kategoriArtikel .pilihanKategori .gambarKategori {
-  border-radius: 50%;
-  background-color: #3af2f3;
-}
-
 #labelBlog .linkLabel a {
   display: inline-block;
   width: 139px;
