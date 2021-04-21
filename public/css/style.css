@@ -139,6 +139,7 @@ body {
   width: 37px;
   height: 37px;
   margin: 5px;
+  border: 1px solid #0094ef;
 }
 
 #kategoriArtikel {
@@ -174,6 +175,7 @@ body {
   font-size: 2.3em;
   font-weight: 800;
 }
+
 #labelBlog .linkLabel a {
   display: inline-block;
   width: 139px;

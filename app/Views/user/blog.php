@@ -274,12 +274,12 @@
               <span aria-hidden="true">&laquo;</span>
             </a>
           </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
           <li class="page-item"><a class="page-link" href="#">2</a></li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>
           <li class="page-item">
             <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
+              <span aria-hidden="true"> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDU0IDU0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NCA1NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTQ2LjkyMywyNi42MThjLTAuMDUxLTAuMTIzLTAuMTI0LTAuMjMzLTAuMjE3LTAuMzI2TDMwLjcwNywxMC4yOTNjLTAuMzkxLTAuMzkxLTEuMDIzLTAuMzkxLTEuNDE0LDANCgkJcy0wLjM5MSwxLjAyMywwLDEuNDE0TDQzLjU4NiwyNkgxYy0wLjU1MywwLTEsMC40NDgtMSwxczAuNDQ3LDEsMSwxaDQyLjU4NkwyOS4yOTMsNDIuMjkzYy0wLjM5MSwwLjM5MS0wLjM5MSwxLjAyMywwLDEuNDE0DQoJCUMyOS40ODgsNDMuOTAyLDI5Ljc0NCw0NCwzMCw0NHMwLjUxMi0wLjA5OCwwLjcwNy0wLjI5M2wxNS45OTktMTUuOTk5YzAuMDkzLTAuMDkyLDAuMTY2LTAuMjAzLDAuMjE3LTAuMzI2DQoJCUM0Ny4wMjQsMjcuMTM4LDQ3LjAyNCwyNi44NjIsNDYuOTIzLDI2LjYxOHoiLz4NCgk8cGF0aCBkPSJNNTMsMTBjLTAuNTUzLDAtMSwwLjQ0OC0xLDF2MzJjMCwwLjU1MiwwLjQ0NywxLDEsMXMxLTAuNDQ4LDEtMVYxMUM1NCwxMC40NDgsNTMuNTUzLDEwLDUzLDEweiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" /> </span>
             </a>
           </li>
         </ul>
