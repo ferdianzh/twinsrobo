@@ -14,7 +14,7 @@
                 <a class="nav-link" href="#">Tentang Kami</a>
                 <a class="nav-link" href="#">Karir</a>
                 <a class="nav-link" href="#">Pembelajaran</a>
-                <a class="nav-link  active" href="#">Blog</a>
+                <a class="nav-link active" href="#">Blog</a>
                 <a class="nav-link" href="#">Bantuan</a>
                 <a class="btn tombol" href="#">Login</a>
             </div>
