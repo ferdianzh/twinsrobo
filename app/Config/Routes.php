@@ -31,7 +31,6 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-<<<<<<< HEAD
 $routes->get('/', 'Admin::index');
 $routes->get('/data_admin', 'Admin::view');
 $routes->get('/add_admin', 'Admin::add');
@@ -45,11 +44,10 @@ $routes->get('/data_blog', 'Blog::view');
 $routes->get('/add_blog', 'Blog::add');
 $routes->get('/data_siswa', 'Siswa::view');
 $routes->get('/add_siswa', 'Siswa::add');
-=======
-$routes->get('/', 'Home::index');
-$routes->get('/blog', 'Blog::blog');
 
->>>>>>> 620fe1de5487ddcae1531960622adc43ff8399d4
+
+//Users
+$routes->get('/Blog', 'Blog::blog');
 
 /*
  * --------------------------------------------------------------------

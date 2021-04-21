@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function previewImage(){
     const foto = document.querySelector('#foto');
     const fotoLabel = document.querySelector('#label-gambar');
@@ -20,7 +19,6 @@ function addShadow(){
 function removeShadow(){
     document.querySelector(".nav-profile").classList.remove("shadow")
 }
-=======
 // JS untuk Navbar ketika di scroll hilang
 // (function() {
 //     var documentElem = $(document),
@@ -39,4 +37,3 @@ function removeShadow(){
 //     });
 
 //     })();
->>>>>>> 620fe1de5487ddcae1531960622adc43ff8399d4

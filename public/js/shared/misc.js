@@ -53,8 +53,26 @@ var lightColor = getComputedStyle(document.body).getPropertyValue('--light');
       $("#sidebar > .nav > .nav-item").find('.collapse.show').collapse('hide');
     });
 
-    $("#sidebar > .nav > .nav-item > a[data-toggle='collapse']").on('click', function(e) {
-      $(".collapse").slideToggle();
+    $("#sidebar > .nav > .nav-item > .front").on('click', function(e) {
+      $(".ui-front").slideToggle();
+    });
+    $("#sidebar > .nav > .nav-item > .belajar").on('click', function(e) {
+      $(".ui-belajar").slideToggle();
+    });
+    $("#sidebar > .nav > .nav-item > .users").on('click', function(e) {
+      $(".ui-users").slideToggle();
+    });
+    $("#sidebar > .nav > .nav-item > .kategori").on('click', function(e) {
+      $(".ui-kategori").slideToggle();
+    });
+    $("#sidebar > .nav > .nav-item > .blog").on('click', function(e) {
+      $(".ui-blog").slideToggle();
+    });
+    $("#sidebar > .nav > .nav-item > .bayar").on('click', function(e) {
+      $(".ui-bayar").slideToggle();
+    });
+    $("#sidebar > .nav > .nav-item > .games").on('click', function(e) {
+      $(".ui-games").slideToggle();
     });
     // function appendBanner() {
 
