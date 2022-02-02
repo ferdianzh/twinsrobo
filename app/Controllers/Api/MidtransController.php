@@ -16,8 +16,8 @@ class MidtransController extends BaseController
 
    public function __construct()
    {
-      Config::$serverKey = 'SB-Mid-server-ist1OS4Ak9hUhfxGj20ilpu1';
-      Config::$clientKey = 'SB-Mid-client-mwugVIZKwRplJTZF';
+      Config::$serverKey = getEnv("MIDTRANS_SERVER_KEY");
+      Config::$clientKey = getEnv("MIDTRANS_CLIENT_KEY");
 
       $this->response = service('response');
       $this->userModel = new UserModel();
