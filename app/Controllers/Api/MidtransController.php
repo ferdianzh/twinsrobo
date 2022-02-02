@@ -9,6 +9,8 @@ use App\Models\SiswaModel;
 use App\Models\UserModel;
 use Midtrans\Config;
 
+use function PHPUnit\Framework\isNull;
+
 class MidtransController extends BaseController
 {
    protected $response;
@@ -76,6 +78,7 @@ class MidtransController extends BaseController
 
    protected function getCustomExpiry($days)
    {
+      if (isNull($days)) $days = 1;
       $custom_expiry = array(
          "order_time" => date("Y-m-d H:i:s O", time()),
          "expiry_duration" => $days*24*60,

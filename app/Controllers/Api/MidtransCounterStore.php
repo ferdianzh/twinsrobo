@@ -13,11 +13,12 @@ class MidtransCounterStore extends MidtransController
       $pay_method = $request->getVar('metode');
       $id_modul = $request->getVar('id_modul');
       $id_siswa = $request->getVar('id_siswa');
+      $exp_days = $request->getVar('exp_days');
 
       $items = $this->getItemDetails($id_modul);
       $customer_details = $this->getCustomerDetails($id_siswa);
       $transaction_details = $this->setTransactionDetails('cs', $id_siswa, $items['gross_amount']);
-      $custom_expiry = $this->getCustomExpiry(2);
+      $custom_expiry = $this->getCustomExpiry($exp_days);
 
       $cstore = array(
          "store" => $pay_method,
