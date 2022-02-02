@@ -1,3 +1,12 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .table > thead > tr > th:first-child,
 .table > tbody > tr > th {
   text-align: center;
@@ -571,6 +580,17 @@ button:active {
   font-size: 16px;
 }
 
+.aktif {
+  background-color: transparent;
+  font-weight: bold;
+}
+.aktif::after {
+  content: "";
+  display: block;
+  width: inherit;
+  height: 3px;
+  background-color: #72c9ff;
+}
 .active {
   background-color: #0f25d5;
 }
@@ -613,227 +633,3 @@ button:active {
     width: 100%;
   }
 }
-* {
-  box-sizing: border-box;
-}
-
-/* Awal CSS NAVBAR SCROLL HIDDEN */
-#menu-utama {
-  transition: all 0.5s ease;
-
-  -webkit-transition: all 0.5s ease;
-
-  -o-transition: all 0.5s ease;
-
-  -ms-transition: all 0.5s ease;
-
-  -moz-transition: all 0.5s ease;
-}
-.hidden {
-  transform: translate3d(0, -100%, 0);
-
-  -webkit-transform: translate3d(0, -100%, 0);
-
-  -o-transform: translate3d(0, -100%, 0);
-
-  -ms-transform: translate3d(0, -100%, 0);
-
-  -moz-transform: translate3d(0, -100%, 0);
-}
-/* Akhir CSS NAVBAR SCROLL HIDDEN */
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  background: rgba(188, 229, 255, 0.17);
-  color: #545454;
-  margin: 0;
-  padding: 0;
-}
-
-.btn-primary {
-  color: white;
-  background-color: #1d79b2;
-  border-radius: 21px;
-  width: 125px;
-}
-
-.tombol {
-  width: 83px;
-  height: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 1em;
-  background-color: #72c9ff;
-  color: white;
-  border-radius: 8px;
-}
-
-.title,
-.sub-title,
-.date {
-  color: #545454;
-}
-.title {
-  font-size: 2em;
-  font-weight: bold;
-  line-height: 44px;
-}
-.sub-title {
-  font-size: 1.1em;
-  font-weight: 600;
-}
-.date {
-  font-size: 1em;
-  font-weight: 500;
-  line-height: 20px;
-}
-
-/* CSS BLOG */
-#pencarian {
-  padding: 100px 0;
-}
-#pencarian h1,
-#pencarian p {
-  font-weight: 800;
-  color: #545454;
-}
-#pencarian p {
-  font-weight: 500;
-}
-#pencarian input {
-  width: 40%;
-  border-radius: 19px;
-}
-
-#blog .blogBawah {
-  padding: 30px;
-}
-#blog .blogAtas .card,
-#blog .blogBawah .card {
-  border: none;
-  background: transparent;
-}
-#blog .blogAtas .card .gambar,
-#blog .blogBawah .card .gambar {
-  border-radius: 21px;
-  background-color: #f1f1f1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-}
-#blog .blogAtas .atasKiri .isiSub {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  margin: 10px 0;
-}
-#blog .blogAtas .atasKanan .row,
-#blog .blogAtas .atasKanan .col,
-#blog .blogBawah .row {
-  margin: 5px;
-}
-#blog .blogAtas .atasKanan .title,
-#blog .blogBawah .title {
-  font-size: 1.1em;
-  line-height: 22px;
-}
-#blog .blogAtas .atasKanan .date,
-#blog .blogBawah .date {
-  font-size: 0.7em;
-}
-#blog .blogBawah .pagination {
-  display: flex;
-  justify-content: center;
-}
-#blog .blogBawah .pagination .page-link {
-  border-radius: 50%;
-  width: 37px;
-  height: 37px;
-  margin: 5px;
-  border: 1px solid #0094ef;
-}
-
-#kategoriArtikel {
-  margin: 50px 0;
-}
-#kategoriArtikel .row {
-  margin: 10px 10px;
-}
-#kategoriArtikel .col-lg-2 {
-  padding: 3px;
-}
-#kategoriArtikel a {
-  background-color: #fff;
-  color: #545454;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px;
-}
-#kategoriArtikel a img {
-  background-color: cyan;
-  border-radius: 50%;
-}
-#kategoriArtikel a:hover {
-  background-color: rgba(188, 229, 255, 0.9);
-}
-#kategoriArtikel h1,
-#labelBlog h1 {
-  font-size: 2.3em;
-  font-weight: 800;
-}
-
-#labelBlog .linkLabel a {
-  display: inline-block;
-  width: 139px;
-  border-radius: 18px;
-  border: 1px solid #0094ef;
-  color: #545454;
-  text-decoration: none;
-  padding: 5px;
-  text-align: center;
-  margin: 8px;
-}
-#labelBlog .linkLabel a:hover {
-  background-color: #0094ef;
-  color: white;
-}
-
-#footer {
-  margin-top: -5px;
-  background-color: #1d79b2;
-  color: white;
-}
-#footer .footBrand {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  margin-bottom: 50px;
-}
-#footer ul li {
-  line-height: 35px;
-}
-#footer ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 400;
-}
-#footer ul li a:hover {
-  color: black;
-}
-#footer .btn-primary {
-  width: auto;
-}
-#footer p {
-  font-size: 0.9em;
-  font-weight: 400;
-}
-/* Akhir CSS BLOG */

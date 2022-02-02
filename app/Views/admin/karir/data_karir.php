@@ -10,7 +10,7 @@
 <?php endif; ?>
 <div class="card shadow mb-4">
     <div class="blog-header">
-        <a href="/add_karir" class="tambah-data">Add Karir</a>
+        <a href="/admin/add_karir" class="tambah-data">Add Karir</a>
     </div>
 </div>
 

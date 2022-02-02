@@ -10,7 +10,7 @@
 <?php endif; ?>
 <div class="card shadow mb-4">
     <div class="blog-header">
-        <a href="/add_mentor" class="tambah-data">Add Mentor</a>
+        <a href="/admin/add_mentor" class="tambah-data">Add Mentor</a>
     </div>
 </div>
 
@@ -21,54 +21,35 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Kelas</th>
+                    <th scope="col">Deskripsi</th>
+                    <th scope="col">Rating</th>
                     <th scope="col" width="20%">Action</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>
-                        <a href="/" class=" btn bg-warning"></a>
-                        <form action="/" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
-                        </form>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>
-                        <a href="/" class=" btn bg-warning"></a>
-                        <form action="/" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
-                        </form>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    <td>
-                        <a href="/" class=" btn bg-warning"></a>
-                        <form action="/" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
-                        </form>
-                    </td>
-                </tr>
+                <?php
+                helper('text');
+                $i = 1;
+                foreach ($mentor as $mentor) :
+                    $dt_user = $user->where(['id' => $mentor['id_user']])->first();
+                ?>
+                    <tr>
+                        <th scope="row"><?= $i++; ?></th>
+                        <td><?= $dt_user['nama_depan'] . ' ' . $dt_user['nama_belakang']; ?></td>
+                        <td><?= word_limiter($mentor['deskripsi_singkat'], 5); ?></td>
+                        <td><?= $mentor['rating']; ?></td>
+                        <td>
+                            <a href="/admin/update_mentor/<?= $mentor['id_user']; ?>" class=" btn bg-warning"></a>
+                            <form action="/admin/delete_mentor/<?= $mentor['id']; ?>" method="post" class="d-inline">
+                                <?= csrf_field(); ?>
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
+                            </form>
+                        </td>
+                    </tr>
+                <?php
+                endforeach;
+                ?>
             </tbody>
         </table>
     </div>

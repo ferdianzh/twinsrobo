@@ -118,7 +118,7 @@
                     </div>
 
                     <input type="submit" value="Create" class="submit btn-save">
-                    <a href="/data_admin" class="btn btn-danger back btn-back">Back</a>
+                    <a href="/admin/data_admin" class="btn btn-danger back btn-back">Back</a>
                 </form>
             </div>
         </div>

@@ -1,0 +1,648 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f0f8fe ;
+}
+
+.sidebar {
+    background: white;
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 20px;
+    width: 250px;
+    height: 72%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+}
+
+.sidebar .profil-image {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.sidebar h4 {
+    color: #1D79B2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.sidebar a{
+    color: gray;
+    display: block;
+    width: 100%;
+    line-height: 42px;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+    background: #1D79B2;
+}
+
+.judul-content{
+    color: #444444;
+    padding-top: 70px;
+    padding-left: 315px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.arti-content{
+    color: gray;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 23px;
+    top: 100px;
+    padding-left: 315px;
+}
+
+.box-content{
+    background: white;
+    margin-top: 70px;
+    padding-top: 30px;
+    width: 930px;
+    height: 537px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.box-content h4{
+    color: #444444;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+}
+.box-content .gambar-chart1{
+    margin-top: -50px;
+    margin-left: 180px;
+    width: 560px;
+    height: 400px;
+}
+
+.box-content2{
+    background: white;
+    margin-top: 70px;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.box-content2 h4{
+    color: #444444;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.box-content3{
+    background: white;
+    margin-top: -325px; 
+    padding-left: 100px;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.box-content3 h4{
+    color: #444444;
+    padding-top: 10px;
+    margin-left: -70px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.box-content-setting{
+    background: white;
+    margin-top: 80px;
+    width: 260px;
+    height: 237px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.box-content-setting .logo-course{
+    padding-top: 12px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.box-content-setting h4{
+    color: #444444;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-content-setting h5{
+    color: gray;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    line-height: 23px;
+    margin-top: -15px;
+    margin-left: 13px;
+}
+.course-btn{
+    width: 170px;
+    height: 22px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    background-color: #1D79B2;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box-content2-setting{
+    background: white;
+    margin-top: -234px;
+    width: 260px;
+    height: 237px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.box-content2-setting .logo-profil{
+    padding-top: 12px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.box-content2-setting h4{
+    color: #444444;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-content2-setting h5{
+    color: gray;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    line-height: 23px;
+    margin-top: -15px;
+    margin-left: 13px;
+}
+
+.profil-btn{
+    width: 170px;
+    height: 22px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    background-color: #1D79B2;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box-content3-setting{
+    background: white;
+    margin-top: -234px;
+    width: 260px;
+    height: 237px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.box-content3-setting .logo-profil{
+    padding-top: 12px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.box-content3-setting h4{
+    color: #444444;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-content3-setting h5{
+    color: gray;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    line-height: 23px;
+    margin-top: -15px;
+    margin-left: 13px;
+}
+
+
+.password-btn{
+
+    width: 170px;
+    height: 22px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    background-color: #1D79B2;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box-setting-pass{
+    background: white;
+    margin-top: 70px;
+    padding-top: 30px;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.label-old-pass{
+    color: #444444;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: -10px;
+    margin-left: 13px;
+}
+
+.txtbox-oldpass{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 18px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-new-pass{
+    color: #444444;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.txtbox-newpass{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-new-confirmpass{
+    color: #444444;
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.txtbox-new-confirmpass{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.savepass-btn{
+    width: 515px;
+    height: 35px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    background-color: #1D79B2;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box-setting-profil{
+    background: white;
+    margin-top: 70px;
+    padding-top: 30px;
+    width: 550px;
+    height: 790px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    border: none;
+}
+
+.foto-profil{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px
+}
+
+.input-photo{
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+.label-nama{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-nama{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+.label-email{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-email{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-username{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-username{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+
+.label-nama-sekolah{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-nama-sekolah{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-tgl-lahir{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-tgl-lahir{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-telfon{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-telfon{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-nama-kota{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-nama-kota{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-nationality{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-nationality{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.label-postcode{
+    color: #444444;
+    width: 117px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 0px;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.txtbox-postcode{
+    padding: 11px 18px;
+    border-radius: 25px;
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    border: none;
+}
+
+.saveprofil-btn{
+    width: 515px;
+    height: 35px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    background-color: #1D79B2;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 520;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}

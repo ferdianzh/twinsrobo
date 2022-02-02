@@ -65,7 +65,7 @@
                     <input type="hidden" name="keterangan" id="keterangan" value="Buka">
 
                     <input type="submit" value="Create" class="submit btn-save">
-                    <a href="/data_karir" class="btn btn-danger back btn-back">Back</a>
+                    <a href="/admin/data_karir" class="btn btn-danger back btn-back">Back</a>
                 </form>
             </div>
         </div>

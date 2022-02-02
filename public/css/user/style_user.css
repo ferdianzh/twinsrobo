@@ -1,0 +1,1525 @@
+/* --- Global CSS --- */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+/* --- Eng of Global CSS --- */
+
+/* --- Navbar CSS --- */
+nav.landpage {
+  background: #0094ef !important;
+}
+
+nav.isi-pembelajaran2 {
+  background: #f2f2f2;
+}
+
+nav.isi-pembelajaran2 .nav-item,
+nav.isi-pembelajaran2 .btn-l a {
+  color: #545454;
+}
+
+nav.isi-pembelajaran2 .btn-l a:hover,
+nav.isi-pembelajaran2 .btn-l a.btn-login {
+  color: #fff;
+}
+nav.landpage.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-item {
+  margin-top: 0;
+}
+
+.nav-item.active {
+  background: none;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  font-weight: 600;
+}
+
+nav .menu-area {
+  position: relative;
+  z-index: 1001;
+}
+
+nav .dropdown .mega-area {
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1001;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  padding: 20px 10px;
+}
+
+nav .dropdown .nav-link {
+  position: relative;
+}
+
+nav .dropdown .kelas-area {
+  width: 700px;
+}
+
+nav .dropdown .community-area {
+  width: 300px;
+}
+
+nav .mega-area a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+nav .mega-area a:hover {
+  background: none;
+}
+
+nav .mega-area a:hover h5 {
+  font-weight: 600;
+}
+
+nav .mega-area a:hover {
+  text-decoration: none;
+}
+
+nav .mega-area a h5 {
+  color: #1d79b2;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+nav .mega-area a p {
+  color: #545454;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+nav .mega-area img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+nav .kelas-area img {
+  background: #58bfff;
+  padding: 0px;
+}
+
+nav .btn-l a {
+  display: inline-block;
+  border-radius: 20px;
+  border: 2px solid #176da2;
+  padding: 5px 20px;
+  font-size: 0.9rem;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+nav .btn-l a:hover {
+  background-color: #176da2;
+}
+
+nav .btn-l a.btn-search {
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+nav .btn-l a.btn-search i {
+  font-size: 16px;
+}
+
+nav .btn-l a.btn-login {
+  background: #176da2;
+}
+
+/* --- End of Navbar CSS --- */
+
+/* --- Top Page CSS --- */
+.top-page {
+  height: 100vh;
+  padding: 120px 0 100px 0;
+}
+
+.top-page img {
+  width: 100%;
+}
+
+.top-page .side-judul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-page h1.judul,
+.top-page p.desc-judul {
+  color: #fff;
+}
+
+.top-page h1.judul {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.top-page p.desc-judul {
+  font-size: 0.8rem;
+}
+
+.top-page a.btn-download {
+  display: inline-block;
+  background: #72c9ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 35px;
+  border-radius: 15px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.intro-page a.gabung::before,
+.top-page a.btn-download::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #1c79b2;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.intro-page a.gabung:hover::before,
+.top-page a.btn-download:hover::before {
+  height: 100%;
+}
+
+/* --- End of Top Page CSS --- */
+
+/* --- Fitur CSS --- */
+.fitur-page {
+  padding-top: 60px;
+}
+
+.fitur-page h2 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.fitur-page p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.fitur-page .cont-fitur .m-baris {
+  margin-top: 60px;
+}
+
+.fitur-page .cont-fitur .img-fitur {
+  z-index: 2;
+}
+
+.fitur-page .cont-fitur .img-fitur img {
+  width: 100%;
+}
+
+.fitur-page .cont-fitur .isi-fitur {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden !important;
+}
+
+.fitur-page .isi-fitur h2 {
+  margin-bottom: 15px;
+}
+/* --- End of Fitur CSS --- */
+
+/* --- Intro CSS --- */
+.intro-page {
+  padding: 60px 0;
+  background: #459dd2;
+  color: #fff;
+  background-position: top;
+}
+
+.intro-page a.gabung {
+  margin-top: 40px;
+  background: #85d1ff;
+  display: inline-block;
+  padding: 10px 50px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.intro-page .cont-konten {
+  margin-top: 80px;
+}
+
+.intro-page .cont-konten lottie-player {
+  margin: 0px auto 10px auto;
+}
+
+.intro-page .cont-konten h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+/* --- End of Intro CSS --- */
+
+/* --- Grow CSS --- */
+.grow-page {
+  padding: 120px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grow-page .cont-judul h2,
+.unduh .cont-judul h2 {
+  font-size: 3.3rem;
+  color: #fff;
+}
+
+.grow-page .cont-konten {
+  margin-top: 170px;
+}
+
+.grow-page .cont-konten .card {
+  background: #1c79b2;
+  position: relative;
+  padding: 60px 15px 60px 15px;
+  border-radius: 80px;
+  color: #fff;
+}
+
+.grow-page .cont-konten .icon {
+  display: inline-block;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.grow-page .cont-konten .icon.id-card {
+  background: #5dc2ff;
+  padding: 5px 20px 15px 20px;
+  top: -40px;
+}
+
+.grow-page .cont-konten .icon.teknisi {
+  background: #463af3;
+  padding: 10px;
+  top: -40px;
+}
+
+.grow-page .cont-konten .icon.gabung {
+  background: #f33a77;
+  padding: 15px 10px;
+  top: -40px;
+}
+
+.grow-page .cont-konten .icon.id-card img {
+  width: 40px;
+}
+
+.grow-page .cont-konten .icon.teknisi img {
+  width: 70px;
+}
+
+.grow-page .cont-konten .icon.gabung img {
+  width: 65px;
+}
+
+.grow-page .cont-konten .card .card-title {
+  margin-bottom: 30px;
+}
+
+.grow-page .cont-konten .card .card-text {
+  margin-bottom: 45px;
+}
+
+.grow-page .cont-konten .card h3 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.grow-page .cont-konten .card a.gabung {
+  background: #5dc2ff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 50px;
+  text-decoration: none;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.grow-page .cont-konten .card a.gabung:hover {
+  color: #1c79b2;
+}
+
+.grow-page .cont-konten .card a.gabung.hvr-sweep-to-top::before {
+  background: #fff;
+}
+/* --- End of Grow CSS --- */
+
+/* --- Unduh CSS --- */
+.unduh {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 240px 0;
+}
+
+.unduh h2 {
+  margin-bottom: 35px;
+}
+
+.unduh .cont-btn a {
+  display: inline-block;
+  background: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.unduh .cont-btn a img {
+  margin-right: 15px;
+}
+
+.unduh .cont-btn a h5 {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.unduh .cont-btn a.btn-appstore {
+  margin-right: 30px;
+}
+/* --- End of Unduh CSS --- */
+
+#footer.landpage {
+  padding-top: 40px;
+}
+
+/* Gerald CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Awal CSS NAVBAR SCROLL HIDDEN */
+#menu-utama {
+  transition: all 0.5s ease;
+
+  -webkit-transition: all 0.5s ease;
+
+  -o-transition: all 0.5s ease;
+
+  -ms-transition: all 0.5s ease;
+
+  -moz-transition: all 0.5s ease;
+}
+.hidden {
+  transform: translate3d(0, -100%, 0);
+
+  -webkit-transform: translate3d(0, -100%, 0);
+
+  -o-transform: translate3d(0, -100%, 0);
+
+  -ms-transform: translate3d(0, -100%, 0);
+
+  -moz-transform: translate3d(0, -100%, 0);
+}
+/* Akhir CSS NAVBAR SCROLL HIDDEN */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background: rgba(188, 229, 255, 0.17);
+  color: #545454;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.bg-primary2 {
+  background-color: #72c9ff;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #1d79b2;
+  border-radius: 21px;
+  padding: 6px 20px;
+}
+.btn-showcase {
+  color: #545454;
+  background-color: transparent;
+  border-radius: 21px;
+  padding: 6px 20px;
+  width: 100%;
+  background: #FFF;
+  box-shadow: 0 8px 23px rgba(0, 0, 0, 0.214816);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tombol {
+  /* width: 83px;
+  height: 28px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: #72c9ff;
+  color: white;
+  border-radius: 8px;
+}
+.tombol2 {
+  width: 83px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: #72c9ff;
+  color: white;
+  border-radius: 12px;
+}
+.tombolLesson {
+  width: 100%;
+  background-color: #bce5ff;
+  border-radius: 18px;
+}
+
+.title,
+.sub-title,
+.date {
+  color: #545454;
+}
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 44px;
+}
+.sub-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.date {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.materiPembelajaran .nav-item a {
+  text-decoration: none;
+}
+
+.materiPembelajaran .nav-item a.tombol:hover {
+  color: #fff;
+  background: #1d79b2;
+}
+
+#blog2 .atasKiri .diskon {
+  font-size: 1.5rem;
+}
+
+#blog2 .atasKiri .setelahDiskon {
+  font-size: 1rem;
+}
+
+.diskon {
+  text-decoration: line-through;
+  color: red;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.setelahDiskon {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+#blog2 .blogBawah hr {
+  margin: 5px 0;
+}
+
+#blog2 .atasKanan hr {
+  margin: 5px 0;
+}
+
+.rating {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating img.bar {
+  height: 30px;
+}
+
+#blog2 .atasKanan .rating img.bar {
+  height: 20px;
+}
+.stars i {
+  color: gold;
+}
+
+#blog2 .blogBawah label {
+  font-weight: 600;
+}
+
+/* CSS BLOG */
+#pencarian {
+  padding: 100px 0;
+}
+#pencarian h1,
+#pencarian p {
+  font-weight: 800;
+  color: #545454;
+}
+#pencarian p {
+  font-weight: 500;
+}
+#pencarian input {
+  width: 40%;
+  border-radius: 19px;
+}
+
+#blog .blogBawah {
+  padding: 30px;
+}
+#blog .blogAtas .card,
+#blog .blogBawah .card {
+  border: none;
+  background: transparent;
+}
+#blog .blogAtas .card a,
+#blog .blogAtas a,
+#blog .blogBawah a {
+  text-decoration: none;
+}
+.gambar {
+  border-radius: 21px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#blog .blogBawah .card .gambar {
+  height: 199px;
+}
+#blog .blogAtas .atasKiri .isiSub {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 10px 0;
+}
+#blog .blogAtas .atasKanan .row,
+#blog .blogAtas .atasKanan .col,
+#blog .blogBawah .row {
+  margin: 5px;
+}
+#blog .blogAtas .atasKanan .title,
+#blog .blogBawah .title {
+  font-size: 1.1em;
+  line-height: 22px;
+}
+#blog .blogAtas .atasKanan .date,
+#blog .blogBawah .date {
+  font-size: 0.7em;
+}
+#blog .blogBawah .pagination {
+  display: flex;
+  justify-content: center;
+}
+#blog .blogBawah .pagination .page-link {
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin: 5px;
+  border: 1px solid #0094ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kategoriArtikel {
+  margin: 50px 0;
+}
+#kategoriArtikel .row {
+  margin: 10px 10px;
+}
+#kategoriArtikel .col-lg-2 {
+  padding: 3px;
+}
+#kategoriArtikel a {
+  background-color: #fff;
+  color: #545454;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#kategoriArtikel a img {
+  background-color: cyan;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+#kategoriArtikel a:hover {
+  background-color: rgba(188, 229, 255, 0.9);
+}
+#kategoriArtikel h1,
+#labelBlog h1 {
+  font-size: 2.3em;
+  font-weight: 800;
+}
+#kategoriArtikel .kategori a p {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+#labelBlog .linkLabel a {
+  display: inline-block;
+  width: 139px;
+  border-radius: 18px;
+  border: 1px solid #0094ef;
+  color: #545454;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  margin: 8px;
+}
+#labelBlog .linkLabel a:hover {
+  background-color: #0094ef;
+  color: white;
+}
+
+#footer {
+  margin-top: -5px;
+  background-color: #1d79b2;
+  color: white;
+}
+#footer .footBrand {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+#footer ul li {
+  line-height: 35px;
+}
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+#footer ul li a:hover {
+  color: black;
+}
+#footer .btn-primary {
+  width: auto;
+}
+#footer p {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+/* Akhir CSS BLOG */
+
+/* Awal CSS Pembelajaran */
+#menu-kedua a {
+  color: white;
+}
+.navbar-nav .tombol2 {
+  border: 1px solid #1d79b2;
+  border-radius: 12px;
+}
+.navbar-nav .tombol2:hover {
+  border: 1px solid white;
+  color: black;
+}
+
+.jumbotron {
+  background-color: #72c9ff;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+.jumbotron .display-4 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.jumbotron p {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.jumbotron .container .row {
+  margin-top: 90px;
+}
+.jumbotron form {
+  position: relative;
+  z-index: 9;
+}
+.jumbotron input {
+  background-color: transparent;
+  border: 1px solid #176da2;
+  width: 100% !important;
+}
+
+.jumbotron .animasi {
+  width: 50%;
+}
+.jumbotron .animasi lottie-player {
+  transform: scale(1.9);
+}
+
+.jumbotron .animasi.an-pembelajaran lottie-player {
+  transform: scale(2.2) !important;
+}
+
+/* #blog2 {
+  padding-top: 100px;
+} */
+
+/* #blog2 .blogBawah {
+  padding: 0px 30px 30px 30px;
+} */
+
+#blog2 .blogAtas {
+  padding-top: 60px;
+}
+
+#blog2 .blogAtas a,
+#blog2 .blogBawah a {
+  text-decoration: none;
+  color: #545454;
+}
+#blog2 .blogAtas .card{
+  background-color: transparent;
+  border: none;
+}
+#blog2 .blogBawah .card {
+  background-color: transparent;
+  border-radius: 21px;
+  border-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#blog2 .flashsale .blogBawah .card {
+  background-color: #FFF;
+  border-radius: 21px;
+  border-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#blog2 .blogAtas .card .gambar,
+#blog2 .blogBawah .card .gambar {
+  border-radius: 21px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+#blog2 .blogAtas .atasKiri .isiSub {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 10px 0;
+}
+#blog2 .blogAtas .atasKiri .rating,
+#blog2 .blogAtas .atasKanan .rating {
+  display: flex;
+  justify-content: space-between;
+}
+#blog2 .blogAtas .atasKiri .rating .stars i,
+#blog2 .blogAtas .atasKanan .rating .stars i {
+  color: gold;
+}
+#blog2 .blogAtas .atasKiri .rating .bar,
+#blog2 .blogAtas .atasKanan .rating .bar {
+  color: #58bfff;
+}
+
+#blog2 .blogAtas .atasKanan .bayar-sekali i {
+  font-size: 18px;
+}
+#blog2 .blogAtas .atasKanan .bayar-sekali p {
+  font-size: 0.67rem;
+}
+
+#blog2 .blogAtas .atasKanan .row,
+#blog2 .blogAtas .atasKanan .col,
+#blog2 .blogBawah .row {
+  margin: 5px;
+}
+#blog2 .blogAtas .atasKanan .title,
+#blog2 .blogBawah .title {
+  font-size: 1rem;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+#blog2 .blogAtas .atasKanan .date,
+#blog2 .blogBawah .date {
+  font-size: 0.7em;
+}
+#blog2 .blogBawah .pagination {
+  display: flex;
+  justify-content: center;
+}
+#blog2 .blogBawah .pagination .page-link {
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin: 5px;
+  border: 1px solid #0094ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog2 .bayar-sekali p {
+  margin-bottom: 0;
+}
+
+#blog2 .bayar-sekali i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #6cf7ec;
+}
+
+#blog2 .box-setuju {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#kategoriPembelajaran {
+  margin: 50px 0;
+}
+#kategoriPembelajaran h1 {
+  margin-bottom: 50px;
+}
+#kategoriPembelajaran .row {
+  margin: 10px 10px;
+}
+#kategoriPembelajaran .col-lg-4 {
+  padding: 10px;
+}
+#kategoriPembelajaran a {
+  background-color: #fff;
+  color: #545454;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+#kategoriPembelajaran a img {
+  background-color: cyan;
+  border-radius: 50%;
+  width: 97px;
+  height: 97px;
+}
+#kategoriPembelajaran a:hover {
+  background-color: rgba(188, 229, 255, 0.9);
+}
+#kategoriPembelajaran h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+/* Akhir CSS Pembelajaran */
+
+/* Awal CSS Isi Pembelajaran */
+.materiPembelajaran {
+  padding: 20px 0;
+}
+
+.materiPembelajaran .tombol {
+  border-radius: 21px;
+  padding: 6px 20px;
+  font-size: 0.9rem;
+  margin-right: 15px;
+  display: inline-block;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.materiPembelajaran .tombol.active {
+  background-color: #1d79b2;
+  font-weight: 600;
+}
+
+.materiPembelajaran .nav-pills {
+  margin-top: 40px;
+}
+
+.materiPembelajaran .sub-judul {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.materiPembelajaran p.desc {
+  font-size: 0.87rem;
+}
+
+#blog2 .tab-content .tab-pane.show.active {
+  background-color: transparent;
+}
+#blog2 .tab-content .tab-pane.fade {
+  background-color: transparent;
+}
+.materiPembelajaran .nav-link.active:hover {
+  color: #58bfff;
+}
+
+/* Akhir CSS Isi Pembelajaran */
+
+/* Awal CSS Isi Pembelajaran2 */
+.Pembelajaran2 {
+  margin-top: 78px;
+}
+
+.Pembelajaran2 .detail {
+  padding: 0 20%;
+}
+
+.Pembelajaran2 .detail img.bar {
+  width: 20px;
+}
+
+.isiPembelajaran2 .mP2-menu .tombol {
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  line-height: 25px;
+  width: 100%;
+  border-radius: 20px;
+  color: #1d79b2;
+  font-weight: 600;
+}
+
+.isiPembelajaran2 .mP2-menu .row {
+  margin: 0;
+}
+.isiPembelajaran2 .title {
+  color: #1d79b2;
+}
+
+.isiPembelajaran2 .mP2-menu .tombol:hover,
+.isiPembelajaran2 .mP2-menu .tombol.active {
+  color: white;
+  background-color: #1d79b2;
+}
+.isiPembelajaran2 .keteranganPembelajaran {
+  text-align: justify;
+  color: #1d79b2;
+  font-weight: 600;
+}
+.isiPembelajaran2 .pengajar .card {
+  background-color: #bce5ff;
+  border: none;
+  border-radius: 8px;
+}
+.isiPembelajaran2 .pengajar .card .tombol {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #1d79b2;
+}
+
+.isiPembelajaran2 .sisiKanan .title {
+  color: #1d79b2;
+  font-size: 1em;
+}
+.isiPembelajaran2 .sisiKanan .menuVideoPembelajaran {
+  gap: 10px;
+}
+.isiPembelajaran2 .sisiKanan .menuVideoPembelajaran a {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #1d79b2;
+  font-weight: 500;
+}
+.isiPembelajaran2 .sisiKanan .menuVideoPembelajaran a:last-child {
+  justify-content: center;
+  font-weight: 700;
+}
+.isiPembelajaran2 .sisiKanan .menuVideoPembelajaran a:hover {
+  background: #48a4dd;
+  color: #fff;
+}
+.isiPembelajaran2 .sisiKanan .menuVideoPembelajaran a span {
+  font-weight: 300;
+}
+.isiPembelajaran2 .sisiKanan,
+.isiPembelajaran2 .sisiKiri {
+  margin: 10px 0;
+}
+
+#footer.footer2 {
+  margin-top: 50px;
+  background-color: #1d79b2;
+  color: #fff;
+}
+#footer.footer2 ul li a {
+  color: #fff;
+}
+#footer.footer2 ul li a:hover {
+  color: black;
+}
+
+/* Akhir CSS Isi Pembelajaran2 */
+
+/* Awal CSS Showcase*/
+
+.showcase-judul .ShowcaseStudent {
+  margin-top: 30px;
+}
+.showcase-judul .HasilKarya {
+  margin-top: 20px;
+}
+.showcase-judul .pilihShowcase {
+  margin-top: 30px;
+}
+.showcase-judul {
+  margin-top: 130px;
+}
+.showcase-judul .title {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.showcase-content {
+  margin-top: 50px;
+}
+.showcase-content .card {
+  box-shadow: 0 8px 23px rgba(0, 0, 0, 0.214816);
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.showcase-content .card .card-head {
+  margin-top: 40px;
+}
+.showcase-content .card .card-head .head-span {
+  color: #1d79b2;
+}
+.showcase-content .card .card-body .body-span {
+  color: red;
+}
+.showcase-content .card .title {
+  color: #1d79b2;
+  font-size: 2em;
+  margin-top: 20px;
+}
+.showcase-content .card .sub-title {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.showcase-content .card .card-body p i {
+  color: #a2faf3;
+}
+.showcase-content .card .card-body .btn-primary,
+.showcase-content .card .card-body .tombol2 {
+  width: 100%;
+  height: auto;
+  border-radius: 21px;
+  margin: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.showcase-content .card .card-body .tombol2:hover {
+  color: #fff;
+}
+
+.showcase-content .card .card-body .tombol2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #1c79b2;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.showcase-content .card .card-body .tombol2:hover:before {
+  height: 100%;
+}
+
+.showcase-content .card .cont-text {
+  margin-bottom: 50px;
+}
+
+/* Akhir CSS Showcase*/
+
+
+/* Awal CSS Isi Showcase */
+.Pembelajaran2 {
+  margin-top: 78px;
+}
+
+.Pembelajaran2 .detail {
+  padding: 0 20%;
+}
+.Pembelajaran2 .atasan {
+  padding: 0 0;
+  width: 100%;
+  border-radius: 10px;
+  color: #FFF;
+  background-color: #1d79b2;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.Pembelajaran2 .detail img.bar {
+  width: 20px;
+}
+
+.isiShowcase .mP2-menu .tombol {
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  line-height: 25px;
+  width: 100%;
+  border-radius: 20px;
+  color: #1d79b2;
+  border-color: #1d79b2;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.isiShowcase .mP2-menu .row {
+  margin: 0;
+}
+.isiShowcase .title {
+  color: #545454;
+}
+
+.isiShowcase .mP2-menu .tombol:hover,
+.isiShowcase .mP2-menu .tombol.active {
+  color: white;
+  background-color: #1d79b2;
+}
+.isiShowcase .keteranganPembelajaran {
+  text-align: justify;
+  color: #545454;
+  font-weight: 600;
+}
+.isiShowcase .kedua {
+  text-align: justify;
+  color: #545454;
+  font-weight: 600;
+}
+.isiShowcase .card {
+  box-shadow: 0 8px 23px rgba(0, 0, 0, 0.214816);
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.isiShowcase .card .title {
+  font-size: 23px;
+  color: #545454;
+}
+.isiShowcase .card .container{
+  margin-top: 15px;
+}
+.isiShowcase .card .sub-title{
+  margin-bottom: 5px;
+}
+.isiShowcase .pengajar .card .tombol {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #1d79b2;
+}
+
+.isiShowcase .sisiKanan .title {
+  color: #1d79b2;
+  font-size: 1em;
+}
+.isiShowcase .sisiKanan .sub_title {
+  color: #1d79b2;
+  font-size: 1em;
+}
+.isiShowcase .sisiKanan .menuVideoPembelajaran {
+  gap: 10px;
+}
+.isiShowcase .sisiKanan .menuVideoPembelajaran a {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9em;
+  color: #FFF;
+  background-color: #1d79b2;
+  font-weight: 700;
+}
+.isiShowcase .sisiKanan .menuVideoPembelajaran a:last-child {
+  justify-content: center;
+  font-weight: 700;
+  color: #1d79b2;
+  background-color: #FFF;
+  border-color: #1d79b2;
+}
+.isiShowcase .sisiKanan .menuVideoPembelajaran a:hover {
+  background: #48a4dd;
+  color: #fff;
+}
+.isiShowcase .sisiKanan .menuVideoPembelajaran a span {
+  font-weight: 300;
+}
+.isiShowcase .sisiKanan,
+.isiShowcase .sisiKiri {
+  margin: 10px 0;
+}
+
+#footer.footer2 {
+  margin-top: 50px;
+  background-color: #1d79b2;
+  color: #fff;
+}
+#footer.footer2 ul li a {
+  color: #fff;
+}
+#footer.footer2 ul li a:hover {
+  color: black;
+}
+
+/* Akhir CSS Isi Showcase */
+
+/* Awal CSS PriceList & Pricelist Subscription*/
+
+.pricelist-judul .ShowcaseStudent {
+  margin-top: 30px;
+}
+.pricelist-judul .HasilKarya {
+  margin-top: 20px;
+}
+.pricelist-judul .pilihShowcase {
+  margin-top: 30px;
+}
+.pricelist-judul {
+  margin-top: 130px;
+}
+.pricelist-judul .title {
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.pricelist-content {
+  margin-top: 50px;
+}
+.pricelist-content .card {
+  box-shadow: 0 8px 23px rgba(0, 0, 0, 0.214816);
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.pricelist-content .card .card-head {
+  margin-top: 40px;
+}
+.pricelist-content .card .card-head .head-span {
+  color: #1d79b2;
+}
+.pricelist-content .card .card-body .body-span {
+  color: red;
+}
+.pricelist-content .card .title {
+  color: #1d79b2;
+  font-size: 2em;
+  margin-top: 20px;
+}
+.pricelist-content .card .sub-title {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.pricelist-content .card .card-body p i {
+  color: #a2faf3;
+}
+.pricelist-content .card .card-body .btn-primary,
+.pricelist-content .card .card-body .tombol2 {
+  width: 100%;
+  height: auto;
+  border-radius: 21px;
+  margin: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.pricelist-content .card .card-body .tombol2:hover {
+  color: #fff;
+}
+
+.pricelist-content .card .card-body .tombol2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #1c79b2;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.pricelist-content .card .card-body .tombol2:hover:before {
+  height: 100%;
+}
+
+.pricelist-content .card .cont-text {
+  margin-bottom: 50px;
+}
+
+/* Akhir CSS PriceList & Pricelist Subscription*/
+
+/* Awal CSS Handbook*/
+
+.handbook-judul .ShowcaseStudent {
+  margin-top: 30px;
+}
+.handbook-judul .HasilKarya {
+  margin-top: 20px;
+}
+.handbook-judul .pilihShowcase {
+  margin-top: 30px;
+}
+.handbook-judul {
+  margin-top: 130px;
+}
+.handbook-judul .title {
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.handbook-content {
+  margin-top: 50px;
+}
+.handbook-content .card {
+  box-shadow: 0 8px 23px rgba(0, 0, 0, 0.214816);
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.handbook-content .card .card-head {
+  margin-top: 40px;
+}
+.handbook-content .card .card-head .head-span {
+  color: #1d79b2;
+}
+.handbook-content .card .card-body .body-span {
+  color: red;
+}
+.handbook-content .card .title {
+  color: #1d79b2;
+  font-size: 2em;
+  margin-top: 20px;
+}
+.handbook-content .card .sub-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.handbook-content .card .card-body p i {
+  color: #a2faf3;
+}
+.handbook-content .card .card-body .btn-primary,
+.handbook-content .card .card-body .tombol2 {
+  width: 100%;
+  height: auto;
+  border-radius: 21px;
+  margin: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.handbook-content .card .card-body .tombol2:hover {
+  color: #fff;
+}
+
+.handbook-content .card .card-body .tombol2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #1c79b2;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.handbook-content .card .card-body .tombol2:hover:before {
+  height: 100%;
+}
+
+.handbook-content .card .cont-text {
+  margin-bottom: 50px;
+}
+
+
+/* Akhir CSS Handbook*/
+
+/* Akhir Gerald CSS */

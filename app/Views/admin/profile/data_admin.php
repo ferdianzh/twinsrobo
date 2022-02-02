@@ -3,14 +3,18 @@
 <?= $this->section('section'); ?>
 <!-- Begin Page Content -->
 <h1 class="h3 mb-4 text-gray-800">Admin</h1>
-<?php if (session()->getFlashdata('pesan')) : ?>
-    <div class="alert alert-success" role="alert">
-        <?= session()->getFlashdata('pesan'); ?>
+<?php if ($pesan = session()->getFlashdata('pesan')) : ?>
+    <div class="alert alert-success <?php if ( strtok($pesan, " ") == 'Hanya' ) echo "alert-warning"?>" role="alert">
+        <?= $pesan; ?>
     </div>
 <?php endif; ?>
 <div class="card shadow mb-4">
     <div class="blog-header">
-        <a href="/add_admin" class="tambah-data">Add Admin</a>
+        <?php if ( session()->get('tipe_admin') == 'Super Admin' ) : ?>
+            <a href="/admin/add_admin" class="tambah-data">Add Admin</a>
+        <?php else : ?>
+            <button class="tambah-data btn btn-dark" disabled>Tidak tersedia</button>
+        <?php endif; ?>
     </div>
 </div>
 
@@ -27,48 +31,33 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>
-                        <a href="/" class=" btn bg-warning"></a>
-                        <form action="/" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
-                        </form>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>
-                        <a href="/" class=" btn bg-warning"></a>
-                        <form action="/" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
-                        </form>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    <td>
-                        <a href="/" class=" btn bg-warning"></a>
-                        <form action="/" method="post" class="d-inline">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
-                        </form>
-                    </td>
-                </tr>
+                <?php
+                $i = 1;
+                foreach ($admin as $admin) :
+                ?>
+                    <tr>
+                        <th scope="row"><?= $i++; ?></th>
+                        <td><?= $admin['nama']; ?></td>
+                        <td><?= $admin['email']; ?></td>
+                        <td><?= $admin['tipe_admin']; ?></td>
+                        <td>
+                            <?php if ( session()->get('id') == $admin['id'] ) : ?>
+                                <a href="/admin/update_admin/<?= $admin['id']; ?>" class=" btn bg-warning"></a>
+                            <?php elseif ( session()->get('tipe_admin') == 'Super Admin' ) : ?>
+                                <a href="/admin/update_admin/<?= $admin['id']; ?>" class=" btn bg-warning"></a>
+                                <form action="/admin/delete_admin/<?= $admin['id']; ?>" method="post" class="d-inline">
+                                    <?= csrf_field(); ?>
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" class="btn btn-danger" onclick="return confirm('apakah anda yakin ingin menghapus data ini ?')"></button>
+                                </form>
+                            <?php else : ?>
+                                <button class="btn btn-dark" disabled>Tidak tersedia</button>
+                            <?php endif; ?>
+                        </td>
+                    </tr>
+                <?php
+                endforeach;
+                ?>
             </tbody>
         </table>
     </div>

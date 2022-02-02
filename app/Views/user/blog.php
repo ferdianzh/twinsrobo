@@ -251,122 +251,6 @@
   <div class="container">
     <h1>Artikel Berdasarkan Kategori</h1>
     <div class="kategori">
-<<<<<<< HEAD
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Program Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori2.png" alt="">
-          </div>
-          <p>Mini Games</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-danger">
-            <img src="/img/kategori3.png" alt="">
-          </div>
-          <p>Info Lomba Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori4.png" alt="">
-          </div>
-          <p>Learn Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Cek My Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Program Robot</p>
-        </div>
-      </a>
-
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Program Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori2.png" alt="">
-          </div>
-          <p>Mini Games</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-danger">
-            <img src="/img/kategori3.png" alt="">
-          </div>
-          <p>Info Lomba Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori4.png" alt="">
-          </div>
-          <p>Learn Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Cek My Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Program Robot</p>
-        </div>
-      </a>
-
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Cek My Robot</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="pilihanKategori">
-          <div class="gambarKategori bg-primary">
-            <img src="/img/kategori1.png" alt="">
-          </div>
-          <p>Program Robot</p>
-        </div>
-      </a>
-=======
       <div class="row">
         <div class="col-lg-2 col-md-4 col-sm-6">
           <a href="" class="h-100">
@@ -456,7 +340,6 @@
         </div>
       </div>
       <!-- Akhir Row -->
->>>>>>> d776b2dd4df6049f7c8b9496371d1881b62cefea
     </div>
     <!-- Akhir Kategori -->
   </div>

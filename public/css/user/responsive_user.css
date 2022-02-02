@@ -1,0 +1,519 @@
+@media only screen and (min-width: 767px) {
+  .materiPembelajaran .nav-pills {
+    justify-content: start !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .jumbotron {
+    background-color: #72c9ff;
+    color: white;
+    height: calc(100vh - 10%);
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav .dropdown .menu-area {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .isiPembelajaran2 .sisiKanan .menuVideoPembelajaran a {
+    font-size: 1rem;
+  }
+
+  /* - Mega Area properties - */
+  nav .dropdown .mega-area {
+    z-index: 0;
+    background: transparent;
+    position: relative;
+    border: none;
+    outline: none;
+    width: 100%;
+    top: 0;
+    padding: 0;
+  }
+
+  nav .btn-l .btn {
+    width: 30%;
+    border-radius: 35px;
+    padding: 8px 30px;
+  }
+
+  /* - Disapear Icon - */
+  nav .dropdown-item .col-md-3 {
+    display: none !important;
+  }
+
+  .top-page {
+    height: unset;
+  }
+
+  .top-page .cont-judul {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .top-page .cont-judul p.desc-judul {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .intro-page a.gabung {
+    margin-top: 20px;
+    width: 30%;
+  }
+
+  .intro-page .cont-konten {
+    margin-top: 30px;
+  }
+
+  .intro-page .cont-konten h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .intro-page .cont-konten p {
+    font-size: 1.2rem;
+  }
+
+  .top-page img {
+    width: 400px;
+  }
+
+  .top-page .center-img {
+    text-align: center;
+  }
+
+  .grow-page {
+    padding-bottom: 10px;
+  }
+
+  .grow-page .cont-judul {
+    text-align: center;
+  }
+
+  .grow-page .cont-konten {
+    margin-top: 100px;
+  }
+
+  .grow-page .cont-konten .m-card {
+    margin-bottom: 90px;
+  }
+  .grow-page .cont-konten .card {
+    padding-bottom: 30px;
+  }
+
+  .pricelist-content {
+    margin-bottom: 100px;
+  }
+
+  .pricelist-content .card .card-head .container {
+    text-align: center;
+  }
+
+  .pricelist-content .card .card-body .btn-primary,
+  .pricelist-content .card .card-body .tombol2 {
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+
+  .pricelist-content .card {
+    height: 100%;
+  }
+
+  .pricelist-content .m-price {
+    margin-bottom: 25px;
+  }
+
+  .pricelist-content .card .card-body {
+    position: relative;
+  }
+
+  .pricelist-content .card .cont-text {
+    margin-bottom: 150px;
+  }
+
+  .pricelist-content .card .card-body .cont-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  /* -------------------------------- */
+  .jumbotron .animasi {
+    margin-top: 100px;
+  }
+
+  #blog2 .m-pembelajaran {
+    margin-bottom: 30px;
+  }
+
+  .materiPembelajaran .mP-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbotron .container .row {
+    flex-direction: column !important;
+  }
+
+  #blog2 .blogAtas {
+    padding-top: 30px;
+  }
+
+  #blog2 .blogAtas .title {
+    font-size: 1.4rem;
+  }
+
+  #blog2 .blogAtas .atasKanan {
+    margin-top: 50px;
+  }
+
+  /* CSS Gerald */
+  .jumbotron .container .row {
+    flex-direction: column-reverse;
+  }
+  /* Akhir CSS Gerald */
+}
+
+@media only screen and (max-width: 812px) {
+  /* Awal CSS Pembelajaran */
+  .jumbotron input {
+    background-color: transparent;
+    border: 1px solid #176da2;
+    width: 200px;
+  }
+  /* Akhir CSS Pembelajaran */
+
+  #footer .foot-ul {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .btn-l {
+    flex-direction: column;
+  }
+
+  nav .btn-l .btn {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .fitur-page .cont-fitur .isi-fitur {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .fitur-page .cont-fitur .even {
+    flex-direction: column-reverse;
+  }
+
+  .intro-page a.gabung {
+    width: 50%;
+  }
+
+  .materiPembelajaran .tombol {
+    margin-right: 0;
+  }
+
+  #kategoriPembelajaran {
+    text-align: center;
+  }
+
+  .isiPembelajaran2 .mP2-menu .tombol {
+    margin-bottom: 10px;
+  }
+
+  .isiPembelajaran2 .sisiKanan .title {
+    text-align: center;
+  }
+
+  .pricelist-judul {
+    margin-top: 120px;
+  }
+
+  /* CSS Gerald*/
+  /* Awal CSS BLOG */
+  #pencarian .form-inline input {
+    margin-right: 10px;
+  }
+
+  #blog .blogBawah .pagination .page-link {
+    width: 14px;
+    height: 27px;
+  }
+
+  #labelBlog .linkLabel {
+    text-align: center;
+  }
+  /* Akhir CSS BLOG */
+
+  /* Awal CSS isi Pembelajaran */
+  .mP-menu {
+    text-align: center;
+  }
+  /* Akhir CSS isi Pembelajaran */
+
+  #footer .ft-menu {
+    width: 50%;
+  }
+  #footer .ft-menu:last-child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Akhir CSS Gerald */
+}
+
+@media only screen and (max-width: 565px) {
+  .grow-page .cont-judul h2 {
+    font-size: 2.6rem;
+  }
+
+  .grow-page .cont-konten {
+    margin-top: 70px;
+  }
+
+  .jumbotron .animasi {
+    margin-top: 40px;
+  }
+
+  .materiPembelajaran .nav-item {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .materiPembelajaran .nav-item .tombol {
+    width: 100%;
+  }
+  .isiPembelajaran2 .mP2-menu .tombol {
+    padding: 8px;
+  }
+
+  /* CSS Gerald */
+  /* Awal CSS BLOG */
+  #pencarian {
+    padding: 30px;
+  }
+  #pencarian .form-inline input {
+    margin-right: 10px;
+  }
+
+  /* Akhir CSS BLOG */
+
+  /* Awal CSS Pricelist & Pricelist Subscription */
+  .pricelist-judul .title {
+    font-size: 1.6em;
+  }
+  .pricelist-judul p {
+    font-size: 0.9em;
+  }
+  /* Akhir CSS Pricelist & Pricelist Subscription */
+  /* Akhir CSS Gerald */
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  nav .btn-l .btn {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .top-page img {
+    width: 300px;
+  }
+
+  .fitur-page h2 {
+    font-size: 1.7rem;
+  }
+
+  .fitur-page .cont-fitur {
+    margin-top: 30px;
+  }
+
+  .fitur-page .cont-fitur .m-baris {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+
+  .intro-page a.gabung {
+    width: 70%;
+  }
+
+  .grow-page {
+    padding: 60px 0;
+  }
+
+  .grow-page .cont-konten .card a.gabung {
+    width: 100%;
+    text-align: center;
+  }
+
+  .unduh {
+    padding: 180px 0;
+  }
+
+  .unduh .cont-judul h2 {
+    font-size: 2.8rem;
+  }
+
+  .unduh .cont-btn {
+    flex-direction: column;
+  }
+
+  .unduh .cont-btn a {
+    width: 100%;
+    justify-content: center !important;
+    padding: 12px 25px;
+  }
+
+  .unduh .cont-btn a img {
+    width: 20px;
+  }
+
+  .unduh .cont-btn a h5 {
+    font-size: 1.2rem;
+  }
+
+  .unduh .cont-btn a.btn-appstore {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .isiPembelajaran2 .title {
+    font-size: 1.6rem;
+  }
+
+  .pricelist-content .card .title {
+    font-size: 1.6rem;
+  }
+
+  .pricelist-content .card hr {
+    margin: 0;
+  }
+
+  /* ---------------------------- */
+  .jumbotron span.cari {
+    display: none;
+  }
+
+  .jumbotron .animasi {
+    margin-top: 0px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 1.6rem !important;
+  }
+
+  #kategoriPembelajaran h1 {
+    font-size: 1.6rem;
+  }
+
+  /* CSS Gerald */
+  /* Awal CSS BLOG */
+  #pencarian h1 {
+    font-size: 2em;
+  }
+  #pencarian p {
+    font-size: 0.8em;
+  }
+  #pencarian .form-inline input,
+  #pencarian .form-inline button {
+    height: 40px;
+    font-size: 0.9em;
+  }
+  #pencarian .form-inline input {
+    width: 60%;
+  }
+  #pencarian .form-inline button {
+    width: 35%;
+  }
+
+  #blog .atasKiri .card .card-body .isiSub img {
+    height: 50px;
+    width: 50px;
+  }
+  #blog .atasKiri .card .card-body .isiSub h4 {
+    font-size: 1.1em;
+  }
+  #blog .atasKiri .card .card-body .title {
+    font-size: 1.3em;
+  }
+
+  #kategoriArtikel h1 {
+    font-size: 1.7em;
+    padding: 20px;
+  }
+
+  #labelBlog h1 {
+    padding: 15px;
+  }
+  /* Akhir CSS BLOG */
+
+  /* Awal CSS Kategori Pembelajaran */
+  .jumbotron .display-4 {
+    font-size: 1.3em;
+    font-weight: 800;
+  }
+
+  #kategoriPembelajaran h1 {
+    font-size: 2em;
+    margin: 0 0 50px 0;
+  }
+  /* Akhir CSS Kategori Pembelajaran */
+
+  #footer .footBrand h1 {
+    font-size: 1.4em;
+  }
+  #footer .row-ketentuan .foot-ul {
+    flex-direction: column;
+  }
+  /* Akhir CSS Gerald */
+}
+
+@media only screen and (max-width: 350px) {
+  .grow-page .cont-judul h2,
+  .unduh .cont-judul h2 {
+    font-size: 2.1rem;
+  }
+
+  .top-page img {
+    width: 250px;
+  }
+
+  .isiPembelajaran2 .title {
+    font-size: 1.4rem;
+  }
+
+  .isiPembelajaran2 p.title {
+    margin-bottom: 0px;
+  }
+
+  .pricelist-content .card .title {
+    font-size: 1.4rem;
+  }
+
+  .grow-page .cont-konten .card {
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  nav .brand .navbar-brand.text {
+    display: none !important;
+  }
+}

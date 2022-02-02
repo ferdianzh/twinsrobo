@@ -11,7 +11,7 @@
 
 <div class="card shadow mb-4">
     <div class="blog-header">
-        <a href="/add_blog" class="tambah-data">Add Blog</a>
+        <a href="/admin/add_blog" class="tambah-data">Add Blog</a>
     </div>
 </div>
 
